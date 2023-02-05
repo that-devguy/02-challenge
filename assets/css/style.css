@@ -1,11 +1,12 @@
 /* imports selected font families from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700&display=swap');
 
 /* sets color variables to easily change colors across the stylesheet */
 :root {
     --bg-color: #1B263B;
     --bg-colorDark: #0D1B2A;
     --text-color1: #E0E1DD;
+    --button-color: #E0E1DD;
     --highlight-color: #20FF36;
     --text-style1: 'Archivo Black', sans-serif;
     --text-style2: 'roboto', sans-serif;
@@ -17,7 +18,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--bg-colorDark);
 }
 
 h1 {
@@ -62,6 +63,7 @@ nav ul li a:hover {
     background-color: var(--highlight-color);
     border-radius: 20px;
     color: var(--bg-colorDark);
+    font-weight: 700;
 }
 
 /* adds and styles hero img */
@@ -82,25 +84,62 @@ nav ul li a:hover {
     padding: 50px;
 }
 
+/* styles the main body of the page below the hero img */
 main {
     max-width: 80%;
     margin: auto;
 }
 
-main h2 {
-    font-family: var(--text-style1);
-    font-size: 32px;
-    text-align: right;
-    margin-right: 50px;
-    border-right: 2px solid var(--highlight-color);
-    padding-right: 10px;
-}
 
-.page-section {
-    margin: 25px 0;
-    padding: 10px 0;
+/* this section styles all the clickable links & icons in contact */
+.contact-information {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#contact ul li {
+    margin: 0 20px;
+}
+
+#contact ul li a {
+    color: var(--button-color);
+    font-family: var(--text-style2);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    cursor: pointer;
+    color: var(--highlight-color);
+}
+
+#contact i {
+    color: var(--button-color);
+}
+
+#contact i:hover {
+    cursor: pointer;
+    color: var(--highlight-color);
+}
+
+/* this section styles the resume button */
+.resume-download {
+    padding: 5px 10px;
+    font-family: var(--text-style2);
+    font-weight: 700;
+    background-color: var(--button-color);
+    color: var(--bg-colorDark);
+    border: 0;
+    border-radius: 20px;
+}
+
+.resume-download:hover {
+    cursor: pointer;
+    background-color: var(--highlight-color);
+}
+
+.resume-download i {
+    color: var(--bg-colorDark);
 }
