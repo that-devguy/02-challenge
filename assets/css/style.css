@@ -31,6 +31,15 @@ h2 {
     font-size: 28px;
 }
 
+h3 {
+    font-family: var(--text-style1)
+}
+
+p {
+    font-family: var(--text-style2);
+    line-height: 1.5em;
+}
+
 /* this section styles the nav bar and it's contents */
 nav {
     display: flex;
@@ -166,4 +175,15 @@ aside {
 
 .resume-download i {
     color: var(--bg-colorDark);
+}
+
+/* this section styles the footer */
+footer {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer p {
+    margin-top: 15px;
 }
