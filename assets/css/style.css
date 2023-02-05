@@ -88,8 +88,31 @@ nav ul li a:hover {
 main {
     max-width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+aside {
+    border-right: 2px solid var(--highlight-color);
+    padding: 0 20px 0 0;
+    text-align: right;
+    width: 10%;
+}
+
+.contents {
+    width: 90%;
+    padding: 0 20px 0 0;
+}
 
 /* this section styles all the clickable links & icons in contact */
 .contact-information {
@@ -100,7 +123,7 @@ main {
 }
 
 #contact ul li {
-    margin: 0 20px;
+    margin: 0 20px 0 0;
 }
 
 #contact ul li a {
@@ -133,6 +156,7 @@ main {
     color: var(--bg-colorDark);
     border: 0;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 .resume-download:hover {
