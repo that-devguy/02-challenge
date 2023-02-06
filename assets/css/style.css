@@ -80,7 +80,7 @@ nav ul li a:hover {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/code-header.jpg");
+    background-image: url("../images/code-header.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -198,48 +198,48 @@ aside {
 
 /* applies and styles the demos for work projects */
 #boba-haven {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/boba-haven-demo.jpg");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("assets/images/boba-haven-demo.jpg");
     background-size: 100% auto;
 }
 
 #boba-haven:hover {
-    background-image: url("/assets/images/boba-haven-demo.jpg");
+    background-image: url("assets/images/boba-haven-demo.jpg");
 }
 
 #study-guide {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/prework-studyguide-demo.jpg");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("assets/images/prework-studyguide-demo.jpg");
     background-size: 100% auto;
 }
 
 #study-guide:hover {
-    background-image: url("/assets/images/prework-studyguide-demo.jpg");
+    background-image: url("assets/images/prework-studyguide-demo.jpg");
 }
 
 #horiseon {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/horiseon-demo.jpg");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("assets/images/horiseon-demo.jpg");
     background-size: 100% auto;
 }
 
 #horiseon:hover {
-    background-image: url("/assets/images/horiseon-demo.jpg");
+    background-image: url("assets/images/horiseon-demo.jpg");
 }
 
 #password-gen {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/placeholder-1.jpg");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("assets/images/placeholder-1.jpg");
     background-size: 100% auto;
 }
 
 #password-gen:hover {
-    background-image: url("/assets/images/placeholder-1.jpg");
+    background-image: url("assets/images/placeholder-1.jpg");
 }
 
 #m4-challenge {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/placeholder-2.jpg");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("assets/images/placeholder-2.jpg");
     background-size: 100% auto;
 }
 
 #m4-challenge:hover {
-    background-image: url("/assets/images/placeholder-2.jpg");
+    background-image: url("assets/images/placeholder-2.jpg");
 }
 
 /* this section styles all the clickable links & icons in contact */
@@ -374,5 +374,9 @@ footer p {
 
     #about-me .contents img {
         margin: 0 auto 20px auto;
+    }
+
+    .work-desc p {
+        font-size: 75%;
     }
 }
