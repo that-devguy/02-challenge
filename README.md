@@ -6,7 +6,7 @@ In this week's challenge I created a Professional Portfolio to showcase my skill
 
 The following image shows the web application's appearance and functionality:
 
-![Professional Portfolio webpage screenshot]()
+![Professional Portfolio webpage screenshot](/assets/images/portfolio-demo.JPG)
 
 ## Links
 
