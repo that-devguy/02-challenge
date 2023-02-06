@@ -123,6 +123,20 @@ aside {
     padding: 0 20px 0 0;
 }
 
+#about-me .contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-me .contents img {
+    width: 30%;
+    height: fit-content;
+    margin-right: 50px;
+    align-self: center;
+    border-radius: 50%;
+}
+
 /* this section styles the items in work */
 #work-container {
     display: flex;
