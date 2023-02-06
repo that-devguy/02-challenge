@@ -198,30 +198,30 @@ aside {
 
 /* applies and styles the demos for work projects */
 #boba-haven {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/boba-haven-demo.JPG");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/boba-haven-demo.jpg");
     background-size: 100% auto;
 }
 
 #boba-haven:hover {
-    background-image: url("/assets/images/boba-haven-demo.JPG");
+    background-image: url("/assets/images/boba-haven-demo.jpg");
 }
 
 #study-guide {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/prework-studyguide-demo.JPG");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/prework-studyguide-demo.jpg");
     background-size: 100% auto;
 }
 
 #study-guide:hover {
-    background-image: url("/assets/images/prework-studyguide-demo.JPG");
+    background-image: url("/assets/images/prework-studyguide-demo.jpg");
 }
 
 #horiseon {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/horiseon-demo.JPG");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("/assets/images/horiseon-demo.jpg");
     background-size: 100% auto;
 }
 
 #horiseon:hover {
-    background-image: url("/assets/images/horiseon-demo.JPG");
+    background-image: url("/assets/images/horiseon-demo.jpg");
 }
 
 #password-gen {
