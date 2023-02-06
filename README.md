@@ -10,6 +10,6 @@ The following image shows the web application's appearance and functionality:
 
 ## Links
 
-- Github Repository: https://github.com/that-devguy/ProfessionalPortfolio-CSS-Challenge
+- GitHub Repository: https://github.com/that-devguy/ProfessionalPortfolio-CSS-Challenge
 
 - Deployed Application: https://that-devguy.github.io/ProfessionalPortfolio-CSS-Challenge/
