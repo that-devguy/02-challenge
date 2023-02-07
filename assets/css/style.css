@@ -285,7 +285,7 @@ aside {
     color: var(--bg-colorDark);
     border: 0;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .resume-download:hover {
@@ -345,7 +345,7 @@ footer p {
     
     #about-me .contents img {
         margin-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         align-self: flex-start;
     }
 }
@@ -379,7 +379,7 @@ footer p {
     }
 
     #about-me .contents img {
-        margin: 0 auto 20px auto;
+        margin: 0 auto 50px auto;
     }
 
     .work-desc p {
@@ -387,22 +387,22 @@ footer p {
     }
 
     .work-desc {
-        top: 35px;
+        top: 75px;
     }
     
     #boba-haven .work-desc {
-        top: 35px;
+        top: 75px;
     }
 
     /* styles the work projects */
     .my-work {
         width: 100%;
-        height: 100px;
+        height: 150px;
     }
 
     /* styles the main work project */
     .my-work:first-child {
-        height: 100px; 
+        height: 150px; 
     }
 
 }
