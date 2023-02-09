@@ -75,6 +75,10 @@ nav ul li a:hover {
     font-weight: 700;
 }
 
+nav ul li a:hover .hide-mobile {
+    color: var(--bg-colorDark);
+}
+
 /* adds and styles hero img */
 .hero {
     height: 300px;
