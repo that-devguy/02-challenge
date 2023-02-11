@@ -173,7 +173,7 @@ aside {
     top: 100px;
 }
 
-#boba-haven .work-desc {
+#password-gen .work-desc {
     top: 300px;
 }
 
@@ -230,12 +230,12 @@ aside {
 }
 
 #password-gen {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/placeholder-1.jpg");
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/password-generator-demo.png");
     background-size: 100% auto;
 }
 
 #password-gen:hover {
-    background-image: url("../images/placeholder-1.jpg");
+    background-image: url("../images/password-generator-demo.png");
 }
 
 #m4-challenge {
