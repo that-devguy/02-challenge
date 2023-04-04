@@ -6,7 +6,7 @@ In this week's challenge I created a Professional Portfolio to showcase my skill
 
 The following image shows the web application's appearance and functionality:
 
-![Professional Portfolio webpage screenshot](/assets/images/portfolio-demo.JPG) 
+![Professional Portfolio webpage screenshot](/assets/images/demo-portfolio.JPG) 
 > **Note**: The download resume button is not currently functional. An updated version of the application will be pushed to the repo once my resume is added to the application.
 
 ## Links
