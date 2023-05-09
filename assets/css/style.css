@@ -173,7 +173,7 @@ aside {
     top: 100px;
 }
 
-#code-quiz .work-desc {
+#spork-it .work-desc {
     top: 300px;
 }
 
@@ -202,13 +202,13 @@ aside {
 }
 
 /* applies and styles the demos for work projects */
-#code-quiz {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/code-quiz-demo-static.jpg");
+#spork-it {
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/homepage-demo.JPG");
     background-size: 100% auto;
 }
 
-#code-quiz:hover {
-    background-image: url("../images/code-quiz-demo-static.jpg");
+#spork-it:hover {
+    background-image: url("../images/homepage-demo.JPG");
 }
 
 #password-gen {
@@ -229,22 +229,22 @@ aside {
     background-image: url("../images/boba-haven-demo.JPG");
 }
 
-#study-guide {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/prework-studyguide-demo.JPG");
+#pokedex {
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/pokedexportal-demo.JPG");
     background-size: 100% auto;
 }
 
-#study-guide:hover {
-    background-image: url("../images/prework-studyguide-demo.JPG");
+#pokedex:hover {
+    background-image: url("../images/pokedexportal-demo.JPG");
 }
 
-#horiseon {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/horiseon-demo.JPG");
+#remote {
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/remote-demo.JPG");
     background-size: 100% auto;
 }
 
-#horiseon:hover {
-    background-image: url("../images/horiseon-demo.JPG");
+#remote:hover {
+    background-image: url("../images/remote-demo.JPG");
 }
 
 /* this section styles all the clickable links & icons in contact */
