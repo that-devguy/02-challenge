@@ -211,22 +211,22 @@ aside {
     background-image: url("../images/homepage-demo.JPG");
 }
 
-#password-gen {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/password-generator-demo.png");
+#weather-dashboard {
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/weather-api-demo.JPG");
     background-size: 100% auto;
 }
 
-#password-gen:hover {
-    background-image: url("../images/password-generator-demo.png");
+#weather-dashboard:hover {
+    background-image: url("../images/weather-api-demo.JPG");
 }
 
-#boba-haven {
-    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/boba-haven-demo.JPG");
+#code-quiz {
+    background-image: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url("../images/code-quiz-demo-static.jpg");
     background-size: 100% auto;
 }
 
-#boba-haven:hover {
-    background-image: url("../images/boba-haven-demo.JPG");
+#code-quiz:hover {
+    background-image: url("../images/code-quiz-demo-static.jpg");
 }
 
 #pokedex {
