@@ -13,4 +13,4 @@ The following image shows the web application's appearance and functionality:
 
 - GitHub Repository: https://github.com/that-devguy/ProfessionalPortfolio-CSS-Challenge
 
-- Deployed Application: https://that-devguy.github.io/ProfessionalPortfolio-CSS-Challenge/
+- Deployed Application: https://thatdevguy.app/
